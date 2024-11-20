@@ -1,0 +1,13 @@
+.bg-customer{
+    background-image: url(https://thienlongvankiem.com/home/products/vltkmax/skin-2022/mainsite/assets/images/content/bg-ranking.png);
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 421px;
+    border: none !important;
+}
+.bg-sidebar{
+    background-image: url(https://thienlongvankiem.com/home/products/vltkmax/skin-2022/mainsite/assets/_sprites-common.png);
+    border: none !important;
+    background-color: transparent;
+}

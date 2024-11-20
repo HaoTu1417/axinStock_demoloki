@@ -1,0 +1,206 @@
+body{
+    font-family: bahnschrift;
+    background-color: #232745;
+}
+.bg-darkBody{
+    background-color: #1e2033;
+    height: 50px;
+}
+.p-trangchu{
+    font-size: 30px;
+}
+
+.homeContainer{
+    margin: 10px;
+}
+.container{
+    --bs-gutter-x: 0px !important;
+}
+.tablist-home{
+    margin-top: 25px;
+}
+.ulTab{
+    background-color: #1E2034;
+    border-radius: 8px;
+}
+.nav-link-edit {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--bs-nav-pills-link-active-bg);
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #ffffff;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #c57600;
+}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: #ffffff;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.img-product{
+    max-width: 115px;
+}
+.bg-product{
+    background: #1E2034;
+}
+.bg-title-product{
+    background: #232744;
+    text-align:left;
+    padding: 7px;
+    max-height: 165px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.text-686c94{
+    color: #686c94;
+    font-size: 12px;
+}
+.text-cd9047{
+    color: #cd9047;
+    font-size: 15px;
+}
+.row>* {
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+    height: 325px;
+}
+
+.tabbar__container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* left: 50%; */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    /* width: 10rem; */
+   
+    height: 70px;
+    padding-block: 0 .13333rem;
+    font-size: 14px;
+    background: #151727;
+    z-index: 100;
+
+}
+@media screen and (min-width: 768px) {
+    .tabbar__container{
+      
+        -webkit-transform: translateX(-50%);
+        transform: translate(-50%);
+        width: 400px;
+        left: 50%;
+    
+    }
+    .homecontainer{
+        width: 400px;
+        height: -webkit-fit-content;
+        height: fit-content;
+        min-height: 100vh;
+        position: relative;
+    }
+    .homecontainer_login{
+        width: 400px;
+        height: -webkit-fit-content;
+        height: fit-content;
+        min-height: 100vh;
+        position: relative;
+    }
+}
+.homecontainer{
+    background-color: #161829;
+}
+.homecontainer_login{
+    height: 100vh;
+    background: linear-gradient(19deg, #161829 28.48%, #303454 96.14%);
+}
+.tabbar__container-item{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    gap: .11707rem;
+    color: #9397bd;
+}
+
+.tabbar__container.active{
+    color: #ebbb6f;
+}
+.tabbar__container svg{
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+.icon-back{
+    font-size: 25px;
+}
+.bi-chevron-left::before {
+    content: "\f284";
+    margin: 13px;
+}
+.phone-login{
+    width: 65%;
+    height: 2.17333rem;
+    font-size: 15px;
+    border: none;
+    border-radius: .26667rem;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    background-size: .64rem .64rem;
+    padding: .36rem .34667rem .36rem .8rem;
+}
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 10.5em;
+    margin-bottom: .125rem;
+}
+.form-check-register {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 2.1em;
+    margin-bottom: .125rem;
+}
+.btn-new{
+    width: 100%;
+    border-radius: 25px;
+}
+.div-btn{
+    margin: 20px;
+}
